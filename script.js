@@ -102,4 +102,3 @@ for(let i = 1; i < 10; i += 0.5) {
             console.log(i + " decimal")
         }
 }
-
