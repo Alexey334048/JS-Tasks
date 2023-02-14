@@ -95,9 +95,11 @@ getRandomRGB()
 "1.5 decimal"
 "2 integer"
 "2.5 decimal" */
-for(let i = 1; i < 100; i + 0.5) {
-    if( i % 0.5 === 0 ){
-        alert("integer")} else{"decimal"}
-
+for(let i = 1; i < 10; i += 0.5) {
+    if( i % 1 === 0 ){
+        console.log(i + " integer")
+        } else{
+            console.log(i + " decimal")
+        }
 }
 /* Немного не понял как правильно сделать */
